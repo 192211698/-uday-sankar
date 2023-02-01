@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+	long long n;
+	int count=0;
+	printf("enter an integer:");
+	scanf("%d",&n);
+	printf("Number of digits: %d", count);
+
+}
