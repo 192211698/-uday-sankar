@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct num
+{
+	int a;
+	int b;
+	int c;
+		
+}s;
+int main()
+{
+	printf("enter the value of a");
+	scanf("%d",&s.a);
+
+	printf ("enter the value of b");
+	scanf("%d",&s.b);
+	s.c=(s.a+s.b);
+	printf("sum=%d",s.c);
+	return 0;	
+}
